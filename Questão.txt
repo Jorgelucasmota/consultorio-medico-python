@@ -1,0 +1,35 @@
+Uma determinada empresa deseja construir um sistema para controlar as consultas médicas em
+uma clínica. Para consulta médica realizada por um médico da clínica, é cobrado do paciente um valor:
+R$ 300,00 se for a primeira consulta, R$ 100,00 se for uma consulta de retorno.
+O sistema deve ter um menu com as seguintes funcionalidades e requisitos:
+a) Cadastro de Médicos; 
+a. CRM, Nome, CPF, Sexo [Feminino, Masculino], Status [Ativo, Inativo];
+b) Cadastro de Pacientes; 
+a. CPF, Nome, Sexo [Feminino, Masculino];
+c) Registrar Consulta; 
+a. Usuário informa data da consulta, CRM do médico e CPF do paciente, se é
+primeira consulta ou retorno para efetuar o registro;
+b. Cada consulta quando registrada fica com status Ativa;
+c. O cadastro do médico precisa estar ativo para registrar a consulta;
+d. Cada consulta deverá ter seu registro de cobrança de acordo com o seu tipo
+(primeira consulta ou retorno);
+
+d) Cancelar Consulta; 
+a. Usuário informa data da consulta, CRM do médico e CPF do paciente para
+cancelar a consulta;
+b. Quando a consulta é cancelada a mesma fica com status Inativa e não deve ter
+cobrança de valor;
+e) Relatório de Pacientes; 
+a. Exibe todos os dados dos pacientes;
+f) Relatório de Médicos Ativos; 
+a. Exibe todos os dados dos médicos;
+g) Relatório de Consultas por Data 
+a. Usuário informa a data para gerar o relatório;
+b. O relatório deve exibir todas as informações da consulta: Data, CRM e Nome do
+Médico, CPF e Nome do Paciente, status da consulta, tipo da consulta, valor da
+consulta;
+c. A última linha do relatório deve constar o valor total arrecadado das consultas do
+dia.
+
+O sistema deve ser capaz de armazenar dados para serem visualizados, mesmo após o término
+da execução do programa.
